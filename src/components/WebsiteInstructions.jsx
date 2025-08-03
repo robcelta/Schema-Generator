@@ -1,9 +1,9 @@
 import React from 'react';
 
-const WebflowInstructions = () => {
+const WebsiteInstructions = () => {
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-medium text-gray-800">How to use in Webflow / Hubspot / Webstudio / Website:</h3>
+      <h3 className="text-lg font-medium text-gray-800">How to use in your website:</h3>
       <ol className="space-y-2 text-sm text-gray-600">
         <li className="flex items-start space-x-2">
           <span className="flex-shrink-0 w-5 h-5 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-medium">1</span>
@@ -11,7 +11,7 @@ const WebflowInstructions = () => {
         </li>
         <li className="flex items-start space-x-2">
           <span className="flex-shrink-0 w-5 h-5 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-medium">2</span>
-          <span>In Webflow, go to your page settings</span>
+          <span>In your website's admin panel or code editor</span>
         </li>
         <li className="flex items-start space-x-2">
           <span className="flex-shrink-0 w-5 h-5 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-medium">3</span>
@@ -36,4 +36,4 @@ const WebflowInstructions = () => {
   );
 };
 
-export default WebflowInstructions;
+export default WebsiteInstructions;

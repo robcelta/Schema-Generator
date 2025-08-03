@@ -1,12 +1,12 @@
 # Schema Markup Generator
 
-A simple, user-friendly tool for generating SEO-friendly Schema markup for Webflow projects.
+A simple, user-friendly tool for generating SEO-friendly Schema markup for website projects.
 
 ## 🚀 Features
 
 - **5 Schema Types**: LocalBusiness, Article, Product, Event, Organization
 - **Built-in Validator**: Real-time error checking and SEO tips
-- **Webflow Ready**: Copy-paste scripts for Webflow projects
+- **Website Ready**: Copy-paste scripts for website projects
 - **No Coding Required**: User-friendly interface for everyone
 
 ## 📋 Quick Start
@@ -22,12 +22,12 @@ A simple, user-friendly tool for generating SEO-friendly Schema markup for Webfl
 2. **Fill in** the required fields (marked with *)
 3. **Validate** your schema using the built-in checker
 4. **Copy** the generated script
-5. **Paste** into Webflow's "Before </head> tag" section
+5. **Paste** into your website's "Before </head> tag" section
 
-## 📝 Webflow Integration
+## 📝 Website Integration
 
 1. Copy the generated `<script>` tag
-2. In Webflow Designer → Page Settings → Custom Code
+2. In your website's admin panel or code editor
 3. Paste in "Head Code" section
 4. Publish your site
 
@@ -44,4 +44,4 @@ MIT License - free to use for any project!
 
 ---
 
-Perfect for Webflow developers who want professional Schema markup without the coding hassle! ✨
+Perfect for web developers who want professional Schema markup without the coding hassle! ✨
