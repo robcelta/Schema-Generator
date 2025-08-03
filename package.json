@@ -1,7 +1,7 @@
 {
   "name": "schema-markup-generator",
   "version": "1.0.0",
-  "description": "Production-ready Schema Markup Generator for Webflow",
+  "description": "Production-ready Schema Markup Generator for Websites",
   "type": "module",
   "scripts": {
     "dev": "vite",

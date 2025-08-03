@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Schema Markup Generator - a React-based web application that helps users create SEO-friendly structured data for Webflow projects. The tool generates JSON-LD schema markup for 5 different schema types: LocalBusiness, Article, Product, Event, and Organization.
+This is a Schema Markup Generator - a React-based web application that helps users create SEO-friendly structured data for website projects. The tool generates JSON-LD schema markup for 5 different schema types: LocalBusiness, Article, Product, Event, and Organization.
 
 ## Development Commands
 
@@ -41,7 +41,7 @@ src/
 │   ├── FormField.jsx           # Individual form field component
 │   ├── ScriptOutput.jsx        # Generated script display
 │   ├── ValidationResults.jsx   # Validation feedback display
-│   └── WebflowInstructions.jsx # Usage instructions
+│   └── WebsiteInstructions.jsx # Usage instructions
 ├── config/
 │   └── schemaTypes.js          # Schema type configurations
 └── utils/
@@ -62,4 +62,4 @@ src/
 - `generateScript()`: Wraps JSON-LD in script tags
 - `isValidUrl()`, `isValidPhone()`: Input validation helpers
 
-The application is designed for non-technical users to easily generate valid schema markup for Webflow integration.
+The application is designed for non-technical users to easily generate valid schema markup for website integration.
