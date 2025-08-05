@@ -65,12 +65,12 @@ const SchemaMarkupGenerator = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <div className="max-w-7xl mx-auto">
-        {/* Top Banner Ad */}
-        <AdBanner 
+        {/* Top Banner Ad - TEMPORARILY DISABLED */}
+        {/* <AdBanner 
           {...adPlacements.topBanner}
           placeholder={!adConfig.showRealAds}
           adSlot={adPlacements.topBanner.slot}
-        />
+        /> */}
 
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">Schema Markup Generator</h1>
@@ -80,17 +80,17 @@ const SchemaMarkupGenerator = () => {
 
         {/* Main Content Grid with Sidebar for Ads */}
         <div className="grid lg:grid-cols-12 gap-6">
-          {/* Left Sidebar - Vertical Ad (Desktop Only) */}
-          <div className="hidden xl:block xl:col-span-2">
+          {/* Left Sidebar - Vertical Ad (Desktop Only) - TEMPORARILY DISABLED */}
+          {/* <div className="hidden xl:block xl:col-span-2">
             <AdBanner 
               {...adPlacements.leftSidebar}
               placeholder={!adConfig.showRealAds}
               adSlot={adPlacements.leftSidebar.slot}
             />
-          </div>
+          </div> */}
 
           {/* Main Content Area */}
-          <div className="lg:col-span-12 xl:col-span-8">
+          <div className="lg:col-span-12 xl:col-span-12">
             <div className="grid lg:grid-cols-2 gap-6">
               <div className="bg-white rounded-xl shadow-lg p-6">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">Configure Your Schema</h2>
@@ -101,14 +101,14 @@ const SchemaMarkupGenerator = () => {
                   onSchemaChange={handleSchemaChange}
                 />
 
-                {/* Mobile Ad Banner */}
-                <div className="block lg:hidden">
+                {/* Mobile Ad Banner - TEMPORARILY DISABLED */}
+                {/* <div className="block lg:hidden">
                   <AdBanner 
                     {...adPlacements.mobileInline}
                     placeholder={!adConfig.showRealAds}
                     adSlot={adPlacements.mobileInline.slot}
                   />
-                </div>
+                </div> */}
 
                 <SchemaForm
                   currentSchemaConfig={currentSchemaConfig}
@@ -137,41 +137,41 @@ const SchemaMarkupGenerator = () => {
                   onToggleValidator={() => setShowValidator(!showValidator)}
                 />
 
-                {/* Inline Ad between sections */}
-                <AdBanner 
+                {/* Inline Ad between sections - TEMPORARILY DISABLED */}
+                {/* <AdBanner 
                   {...adPlacements.contentInline}
                   placeholder={!adConfig.showRealAds}
                   adSlot={adPlacements.contentInline.slot}
-                />
+                /> */}
 
                 <WebsiteInstructions />
               </div>
             </div>
             
-            {/* Bottom Content Ad */}
-            <AdBanner 
+            {/* Bottom Content Ad - TEMPORARILY DISABLED */}
+            {/* <AdBanner 
               {...adPlacements.bottomContent}
               placeholder={!adConfig.showRealAds}
               adSlot={adPlacements.bottomContent.slot}
-            />
+            /> */}
           </div>
 
-          {/* Right Sidebar - Vertical Ad (Desktop Only) */}
-          <div className="hidden xl:block xl:col-span-2">
+          {/* Right Sidebar - Vertical Ad (Desktop Only) - TEMPORARILY DISABLED */}
+          {/* <div className="hidden xl:block xl:col-span-2">
             <AdBanner 
               {...adPlacements.rightSidebar}
               placeholder={!adConfig.showRealAds}
               adSlot={adPlacements.rightSidebar.slot}
             />
-          </div>
+          </div> */}
         </div>
         
-        {/* Footer Ad */}
-        <AdBanner 
+        {/* Footer Ad - TEMPORARILY DISABLED */}
+        {/* <AdBanner 
           {...adPlacements.footer}
           placeholder={!adConfig.showRealAds}
           adSlot={adPlacements.footer.slot}
-        />
+        /> */}
       </div>
     </div>
   );
